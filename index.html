@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+  <link rel="stylesheet" href="index.css" type="text/css" >
+<body>
+  <div id="container">
+    <h1>TIP CALCULATOR</h1>
+    <div id="calculator">
+      <form id="form">
+        <p>How much was your bill?</p>
+        <input type="text" id="billamt">
+        <p>How many people are sharing the bill?</p>
+        <input type="text" id="peopleamt">
+        <button type="button" id="btn">CALCULATE!</button>
+      </form>
+    </div>
+    
+    <div id="totalTip">
+      <sup>$</sup><span id="tipdisplay">0</span>
+      <small>per person</small>
+    </div>
+    
+    <p id="message"></p>
+    
+  </div>
+  <script src="main.js"></script>
+  
+</body>
+</html>
